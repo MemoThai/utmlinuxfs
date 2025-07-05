@@ -1,7 +1,7 @@
 # utmlinuxfs
 
 This project is inspired by the amazing [anylinuxfs](https://github.com/nohajc/anylinuxfs),  
-but since anylinuxfs has a limitation (only one drive can be mounted at a time),  
+but since anylinuxfs has a limitation (only one drive can be mounted at a time, file owner and permissions issue 777),  
 I tried to come up with a workaround to enable mounting multiple drives/disks simultaneously inside UTM.
 
 # A Humble Disclaimer
