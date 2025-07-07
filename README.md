@@ -13,8 +13,14 @@ I’m just an amateur tinkering around and sharing what I made in case it helps 
 Please consider this a work in progress and use at your own risk.
 
 # Issues
-1. Read speed is stuck at usb 2.0 (not over 30 MB/s)  
-   I don't know how to fix this yet.
+### USB Limitation with UTM
+Since **UTM does not yet support USB 3.2**, you have two options:
+
+- Use **USB 3.1** instead.  
+  *(In my case, I only have a USB 3.1 hub with a Type-A plug, so I had to connect the enclosure to a USB 3.1 hub (Type-A), then into a USB 3.2 hub (Type-C), and finally to my MacBook Air.)*
+
+- Or use **USB 2.0**,  
+  but the transfer speed will be much slower.
 
 # Requirements
 
