@@ -12,6 +12,10 @@ I’m just an amateur tinkering around and sharing what I made in case it helps 
 
 Please consider this a work in progress and use at your own risk.
 
+# Issues
+1. Read speed is stuck at usb 2.0 (not over 30 MB/s)  
+   I don't know how to fix this yet.
+
 # Requirements
 
 - macOS running on Apple Silicon with **sudo** privileges  
@@ -88,4 +92,3 @@ To unmount, run:
 ./umountdisk.sh
 ```
 which performs the reverse operation.
-
