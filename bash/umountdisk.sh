@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo
-echo "===== Step 1: Unmount these paths on macOS (only the ones you use) ====="
+echo "===== Step 1: Unmount these paths on macOS (only the ones you mounted) ====="
 while IFS= read -r mountpoint; do
   folder=$(basename "$mountpoint")
   echo "sudo umount /Volumes/$folder"
